@@ -101,7 +101,3 @@ libx264
 #### 参与贡献
 
 此仓库不提供Pull.
-
-
-#### 版权
-https://github.com/rdp/ffmpeg-windows-build-helpers
