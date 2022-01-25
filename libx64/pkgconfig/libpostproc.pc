@@ -1,7 +1,7 @@
-prefix=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared
+prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4.1_shared
 exec_prefix=${prefix}
-libdir=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared/lib
-includedir=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared/include
+libdir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4.1_shared/lib
+includedir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4.1_shared/include
 
 Name: libpostproc
 Description: FFmpeg postprocessing library

@@ -43,12 +43,12 @@ EXPORTS
     av_bprint_chars
     av_bprint_clear
     av_bprint_escape
+    av_bprintf
     av_bprint_finalize
     av_bprint_get_buffer
     av_bprint_init
     av_bprint_init_for_buffer
     av_bprint_strftime
-    av_bprintf
     av_buffer_alloc
     av_buffer_allocz
     av_buffer_create
@@ -243,11 +243,11 @@ EXPORTS
     av_get_sample_fmt_name
     av_get_sample_fmt_string
     av_get_standard_channel_layout
-    av_get_time_base_q
-    av_get_token
     av_gettime
+    av_get_time_base_q
     av_gettime_relative
     av_gettime_relative_is_monotonic
+    av_get_token
     av_hash_alloc
     av_hash_final
     av_hash_final_b64
@@ -401,13 +401,31 @@ EXPORTS
     av_parse_time
     av_parse_video_rate
     av_parse_video_size
+    av_pixelutils_get_sad_fn
     av_pix_fmt_count_planes
     av_pix_fmt_desc_get
     av_pix_fmt_desc_get_id
     av_pix_fmt_desc_next
     av_pix_fmt_get_chroma_sub_sample
     av_pix_fmt_swap_endianness
-    av_pixelutils_get_sad_fn
+    avpriv_alloc_fixed_dsp
+    avpriv_cga_font
+    avpriv_dict_set_timestamp
+    avpriv_float_dsp_alloc
+    avpriv_get_gamma_from_trc
+    avpriv_get_trc_function_from_trc
+    avpriv_init_lls
+    avpriv_open
+    avpriv_report_missing_feature
+    avpriv_request_sample
+    avpriv_scalarproduct_float_c
+    avpriv_set_systematic_pal2
+    avpriv_slicethread_create
+    avpriv_slicethread_execute
+    avpriv_slicethread_free
+    avpriv_solve_lls
+    avpriv_tempfile
+    avpriv_vga16_font
     av_q2intfloat
     av_rc4_alloc
     av_rc4_crypt
@@ -517,7 +535,10 @@ EXPORTS
     av_tx_uninit
     av_usleep
     av_utf8_decode
+    avutil_configuration
     av_util_ffversion
+    avutil_license
+    avutil_version
     av_vbprintf
     av_version_info
     av_video_enc_params_alloc
@@ -530,24 +551,3 @@ EXPORTS
     av_xtea_init
     av_xtea_le_crypt
     av_xtea_le_init
-    avpriv_alloc_fixed_dsp
-    avpriv_cga_font
-    avpriv_dict_set_timestamp
-    avpriv_float_dsp_alloc
-    avpriv_get_gamma_from_trc
-    avpriv_get_trc_function_from_trc
-    avpriv_init_lls
-    avpriv_open
-    avpriv_report_missing_feature
-    avpriv_request_sample
-    avpriv_scalarproduct_float_c
-    avpriv_set_systematic_pal2
-    avpriv_slicethread_create
-    avpriv_slicethread_execute
-    avpriv_slicethread_free
-    avpriv_solve_lls
-    avpriv_tempfile
-    avpriv_vga16_font
-    avutil_configuration
-    avutil_license
-    avutil_version

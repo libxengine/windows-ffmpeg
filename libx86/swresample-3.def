@@ -7,6 +7,9 @@ EXPORTS
     swr_convert
     swr_convert_frame
     swr_drop_output
+    swresample_configuration
+    swresample_license
+    swresample_version
     swr_ffversion
     swr_free
     swr_get_class
@@ -19,6 +22,3 @@ EXPORTS
     swr_set_channel_mapping
     swr_set_compensation
     swr_set_matrix
-    swresample_configuration
-    swresample_license
-    swresample_version

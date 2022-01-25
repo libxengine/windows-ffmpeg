@@ -2,7 +2,7 @@
 
 #### current version
 
-4.4
+4.4.1
  
 #### introduce
 This version is a dynamic library compilation mode.
@@ -100,4 +100,4 @@ libx264
 
 #### Participate in Contribution
 
-Pull is not available in this warehouse.
+Pull is not available in this.

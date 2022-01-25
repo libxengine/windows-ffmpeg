@@ -23,11 +23,10 @@ EXPORTS
     av_buffersrc_parameters_alloc
     av_buffersrc_parameters_set
     av_buffersrc_write_frame
-    av_filter_ffversion
-    av_filter_iterate
     avfilter_add_matrix
     avfilter_config_links
     avfilter_configuration
+    av_filter_ffversion
     avfilter_free
     avfilter_get_by_name
     avfilter_get_class
@@ -50,6 +49,7 @@ EXPORTS
     avfilter_inout_alloc
     avfilter_inout_free
     avfilter_insert_filter
+    av_filter_iterate
     avfilter_license
     avfilter_link
     avfilter_link_free
