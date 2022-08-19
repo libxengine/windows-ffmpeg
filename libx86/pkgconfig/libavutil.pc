@@ -1,7 +1,7 @@
-prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.3_shared
+prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.4_shared
 exec_prefix=${prefix}
-libdir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.3_shared/lib
-includedir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.3_shared/include
+libdir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.4_shared/lib
+includedir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win32/ffmpeg_git_n4.3.4_shared/include
 
 Name: libavutil
 Description: FFmpeg utility library
