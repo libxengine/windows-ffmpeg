@@ -2,8 +2,8 @@
 
 #### current version
 
-x64:4.3.4  
-x86:4.3.4  
+x64:5.1.2  
+x86:5.1.2  
  
 #### introduce
 This version is a dynamic library compilation mode.
@@ -29,75 +29,10 @@ You can use the help of ffmpeg to check the supported codecs
 3. The provided version is only allowed to be used by systems above windows7 sp1
 
 #### Contains third party libraries
-dlfcn  
-libxavs  
-libdavs2  
-zlib  
-libcaca  
-bzip2  
-liblzma  
-iconv  
-sdl2  
-amd_amf  
-intel_quicksync  
-nv  
-libzimg  
-libopenjpeg  
-glew  
-glfw  
-libwebp  
-harfbuzz  
-libxml2  
-libvmaf  
-fontconfig   
-gmp  
-libnettle  
-unistring  
-libidn2  
-gnutl  
-openssl  
-libogg  
-libvorbis  
-libopus  
-libspeexdsp  
-libspeex  
-libtheora  
-libsndfile  
-lame  
-twolame  
-libopencore  
-libilbc   
-libmodplug  
-libgme  
-libbluray  
-libbs2b  
-libsoxr  
-libflite  
-libsnappy  
-vamp_plugin  
-fftw  
-libsamplerate  
-librubberband  
-svt-hevc  
-vidstab  
-libmysofa  
-fdk-aac  
-libdecklink  
-zvbi  
-fribidi  
-libass  
-libxvid  
-libsrt  
-libaribb24  
-libtesseract  
-lensfun  
-libvpx  
-libx265  
-libopenh264  
-libaom  
-dav1d   
-avisynth  
-libx264  
+
+```
+configuration: --pkg-config=pkg-config --pkg-config-flags=--static --extra-version=ffmpeg-windows-build-helpers --enable-version3 --disable-debug --disable-w32threads --arch=x86 --target-os=mingw32 --cross-prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/cross_compilers/mingw-w64-i686/bin/i686-w64-mingw32- --enable-libcaca --enable-gray --enable-libtesseract --enable-fontconfig --enable-gmp --enable-libass --enable-libbluray --enable-libbs2b --enable-libflite --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopus --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libvorbis --enable-libwebp --enable-libzimg --enable-libzvbi --enable-libmysofa --enable-libopenjpeg --enable-libopenh264 --enable-libvmaf --enable-libsrt --enable-libxml2 --enable-opengl --enable-libdav1d --enable-cuda-llvm --enable-gnutls --enable-libaom --enable-nvenc --enable-nvdec --extra-libs=-lharfbuzz --extra-libs=-lm --extra-libs=-lshlwapi --extra-libs=-lmpg123 --extra-libs=-lpthread --extra-cflags=-DLIBTWOLAME_STATIC --extra-cflags=-DMODPLUG_STATIC --extra-cflags=-DCACA_STATIC --enable-amf --enable-libmfx --enable-gpl --enable-frei0r --enable-librubberband --enable-libvidstab --enable-libx264 --enable-libx265 --enable-avisynth --enable-libaribb24 --enable-libxvid --enable-libdavs2 --enable-libxavs --extra-cflags='-mtune=generic' --extra-cflags=-O3 --enable-shared --disable-static
+```
 
 #### Participate in Contribution
 
