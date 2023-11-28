@@ -1,13 +1,13 @@
-prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n5.1.2_shared
+prefix=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_with_fdk_aac_n6.1_shared
 exec_prefix=${prefix}
-libdir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n5.1.2_shared/lib
-includedir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n5.1.2_shared/include
+libdir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_with_fdk_aac_n6.1_shared/lib
+includedir=/home/ubuntu/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_with_fdk_aac_n6.1_shared/include
 
 Name: libswscale
 Description: FFmpeg image rescaling library
-Version: 6.7.100
+Version: 7.5.100
 Requires: 
-Requires.private: libavutil >= 57.28.100
+Requires.private: libavutil >= 58.29.100
 Conflicts:
 Libs: -L${libdir}  -lswscale 
 Libs.private: -lm -latomic
