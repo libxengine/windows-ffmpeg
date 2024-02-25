@@ -2,8 +2,8 @@
 
 #### current version
 
-x64:6.1  
-x86:6.1  
+x64:6.1.1  
+x86:6.1.1  
  
 #### introduce
 This version is a dynamic library compilation mode.
