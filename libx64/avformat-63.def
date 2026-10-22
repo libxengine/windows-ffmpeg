@@ -39,13 +39,14 @@ EXPORTS
     av_probe_input_format2
     av_probe_input_format3
     av_program_add_stream_index
+    av_program_add_stream_index2
+    av_program_copy
     av_read_frame
     av_read_pause
     av_read_play
     av_sdp_create
     av_seek_frame
     av_stream_get_class
-    av_stream_get_codec_timebase
     av_stream_get_parser
     av_stream_group_get_class
     av_url_split
@@ -83,7 +84,6 @@ EXPORTS
     avformat_stream_group_add_stream
     avformat_stream_group_create
     avformat_stream_group_name
-    avformat_transfer_internal_stream_timing_info
     avformat_version
     avformat_write_header
     avio_accept
